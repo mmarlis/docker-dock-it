@@ -3,6 +3,7 @@
 volumes:
   world-db:
 
+
 services:
   db:
     image: "mariadb:latest"
@@ -34,7 +35,7 @@ services:
       - ./web/html:/var/www/html
     environment:
       MYSQL_HOST: "db"
-      MYSQL_DATABASE: "world"
+      MYSQL_DATABASE: "php_final"
       MYSQL_USER: ${DB_USERNAME}
       MYSQL_PASSWORD: ${DB_PASSWORD}
 
