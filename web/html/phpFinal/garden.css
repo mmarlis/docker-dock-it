@@ -1,0 +1,142 @@
+.container{
+    margin: auto;
+    width: 50%;
+    /*border: 3px solid green;*/
+    padding: 10px;
+}
+p.data-finds{
+    text-align: right;
+    font-family: Roboto;
+}
+.table-hover{
+
+    justify-content: center;
+    text-align: center;
+    border: 0px white;
+
+}
+th, a{
+      text-decoration: none;
+}
+.plants{
+    color: green;
+}
+
+.table-title{
+    font-family: Cabin;
+    color: #3a5a40;
+    font-size: 2em;
+}
+p.head{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2em;
+
+  }
+
+/* TODO: FIX!!!*/
+div .header{
+    width: 500px;
+    height: 100px;
+    margin: 300px;
+}
+p.home-description{
+    font-size: 1.1em;
+    font-family: 'Wix Madefor Text', sans-serif;
+}
+
+div.welcome{
+    font-family: 'Roboto Flex', sans-serif;
+    color: #404040;
+}
+h3{
+    font-size: 2em;
+    color: #549DAA;
+}
+
+.table-hover{
+    font-family: 'Wix Madefor Text', sans-serif;;
+}
+th a{
+    color: #404040;
+}
+
+
+.plants{
+    color: #549DAA;
+}
+.pagination{
+    color: #404040;
+}
+
+
+/*LOGIN/REGISTER FORM*/
+
+body {
+    padding-bottom: 20px;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.login-container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.login-form-1{
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-1 h3{
+    text-align: center;
+    color: #333;
+}
+.login-form-2{
+    padding: 5%;
+    background: #549DAAFF;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+.login-form-2 h3{
+    text-align: center;
+    color: #fff;
+}
+.login-container form{
+    padding: 10%;
+}
+.btnSubmit
+{
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}
+.login-form-1 .btnSubmit{
+    font-weight: 600;
+    color: #fff;
+    background-color: #549DAAFF;
+}
+.login-form-2 .btnSubmit{
+    font-weight: 600;
+    color: #549DAAFF;
+    background-color: #fff;
+}
+.login-form-2 .ForgetPwd{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login-form-1 .ForgetPwd{
+    color: #549DAAFF;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.bg-light{
+    background-color: #404040;
+}
+
+.mynav{
+    background-color: #549DAAFF ;
+    padding: 15px;
+}
