@@ -1,7 +1,8 @@
 # named volumes:
 #name volume must be unique to project
 volumes:
-  world-db:
+#  world-db:
+  php-final-db:
 
 
 services:
@@ -10,7 +11,9 @@ services:
     volumes:
       # without volumes, data would be reset everytime
       # named volumes:
-      - world-db:/var/lib/mysql
+#      - world-db:/var/lib/mysql
+      - php-final-db:/var/lib/mysql
+
       # local volumes
       #- ./conf/mysql:/etc/mysql/conf.d
       #- ./db/data:/var/lib/mysql
@@ -28,7 +31,7 @@ services:
       - db
     ports:
       # host: container
-      - 80:80
+      - 801:80
     volumes:
       # without volumes, data would be reset everytime
       - ./conf/php/php.ini:/usr/local/etc/php/conf.d/php.ini
